@@ -17,7 +17,7 @@ public class Sel_013_LoginSample {
 		ElementUtil.launchURL(driver, "https://app.hubspot.com/login");
 		Thread.sleep(5000);
 		
-		ElementUtil.getElement(driver, email).sendKeys("boblerry@gmail.com");
+		ElementUtil.getElement(driver, email).sendKeys("sezer@gmail.com");
 		ElementUtil.getElement(driver, password).sendKeys("test123");
 		ElementUtil.getElement(driver, loginBtn).click();
 		ElementUtil.quitBrowser(driver);
