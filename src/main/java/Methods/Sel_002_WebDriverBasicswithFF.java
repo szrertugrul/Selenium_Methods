@@ -8,7 +8,7 @@ public class Sel_002_WebDriverBasicswithFF {
 	public static void main(String[] args) {
 		
 		//Set property
-		System.setProperty("webdriver.gecko.driver", "/Users/bobit/Documents/Drivers/geckodriver");
+		System.setProperty("webdriver.gecko.driver", "/Users/szr/Documents/Drivers/geckodriver");
 		
 		WebDriver driver = new FirefoxDriver();
 		
