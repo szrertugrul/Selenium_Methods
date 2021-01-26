@@ -10,7 +10,7 @@ public class Sel_003_WebDriverManager {
 	public static void main(String[] args) {
 		
 		//Set property
-		//System.setProperty("webdriver.chrome.driver", "/Users/bobit/Documents/Drivers/chromedriver");
+		//System.setProperty("webdriver.chrome.driver", "/Users/szr/Documents/Drivers/chromedriver");
 		
 		WebDriverManager.chromedriver().browserVersion("80.0.3987.16").setup();
 		
