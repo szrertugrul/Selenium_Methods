@@ -26,7 +26,7 @@ public class Sel_042_TestNG_2 {
 	
 	@Test
 	public void invalidCredentials() {
-		ElementUtil.getElement(driver, email).sendKeys("boblerry@gmail.com");
+		ElementUtil.getElement(driver, email).sendKeys("sezer@gmail.com");
 		ElementUtil.getElement(driver, password).sendKeys("test123");
 		ElementUtil.getElement(driver, loginBtn).click();
 		String text = ElementUtil.getElement(driver, bodyText).getText();
