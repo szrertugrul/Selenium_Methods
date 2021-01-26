@@ -9,7 +9,7 @@ public class Sel_001_WebDriverBasics {
 		
 		
 		//Set property
-		System.setProperty("webdriver.chrome.driver", "/Users/bobit/Documents/Drivers/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/Users/szr/Documents/Drivers/chromedriver");
 		
 		WebDriver driver = new ChromeDriver();
 		
