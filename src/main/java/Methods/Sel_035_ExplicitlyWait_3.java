@@ -27,7 +27,7 @@ public class Sel_035_ExplicitlyWait_3 {
 		By password = By.id("password");
 		By loginBtn = By.id("loginBtn");
 		
-		getElement(driver, email, 3).sendKeys("newjersey@sample.com");
+		getElement(driver, email, 3).sendKeys("sezer@sample.com");
 		getElement(driver, password, 1).sendKeys("test12345");
 		getElement(driver, loginBtn, 2).click();
 
