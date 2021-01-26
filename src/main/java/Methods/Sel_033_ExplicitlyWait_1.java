@@ -33,7 +33,7 @@ public class Sel_033_ExplicitlyWait_1 {
 		
 		wait.until(ExpectedConditions.presenceOfElementLocated(email));
 		WebElement username = driver.findElement(email);
-		username.sendKeys("ilhan@sample.com");
+		username.sendKeys("sezer@sample.com");
 		//System.out.println(username);
 		
 		
