@@ -23,7 +23,7 @@ public class Sel_011_Xpath {
 		Thread.sleep(5000); // 5 seconds
 			
 //		WebElement userElement = driver.findElement(By.xpath("//input[@id='username']"));
-//		userElement.sendKeys("ilhan@gmail.com");
+//		userElement.sendKeys("sezer@gmail.com");
 	//	
 //		WebElement passElement = driver.findElement(By.xpath("//input[@id='password']"));
 //		passElement.sendKeys("1r3");
@@ -36,7 +36,7 @@ public class Sel_011_Xpath {
 		By username = By.xpath("//input[@id='username']");
 		By password = By.xpath("//input[@id='password']");
 		
-		ElementUtil.getElement(driver, username).sendKeys("ilhan@gmail.com");
+		ElementUtil.getElement(driver, username).sendKeys("sezer@gmail.com");
 		ElementUtil.getElement(driver, password).sendKeys("543hsgsfcs");
 		
 		}
