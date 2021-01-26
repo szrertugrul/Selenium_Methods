@@ -12,7 +12,7 @@ public class Sel_026_MultipleDropdown_3 {
 
 	public static void main(String[] args) {
 		
-		System.setProperty("webdriver.chrome.driver", "/Users/bobit/Documents/Drivers/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/Users/szr/Documents/Drivers/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
