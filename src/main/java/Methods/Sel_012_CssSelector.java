@@ -17,7 +17,7 @@ public class Sel_012_CssSelector {
 		Thread.sleep(5000); // 5 seconds
 		
 		By username = By.cssSelector("#username");
-		ElementUtil.getElement(driver, username).sendKeys("ziya@gmail.com");
+		ElementUtil.getElement(driver, username).sendKeys("sezer@gmail.com");
 		By passowrd = By.cssSelector("#password");
 		ElementUtil.getElement(driver, passowrd).sendKeys("123test");
 		By loginBtn = By.cssSelector("#loginBtn");
