@@ -43,7 +43,7 @@ public class Sel_043_JavaScriptExecuterExample {
 		
 		//send keys with JSE
 		//WebElement username = driver.findElement(By.id("username"));
-		//JavaScriptUtil.sendKeysUsingJSWithID(driver, "username", "ilhan@gmail.com");
+		//JavaScriptUtil.sendKeysUsingJSWithID(driver, "username", "sezer@gmail.com");
 		//JavaScriptUtil.drawBorder(username, driver);
 		
 		//flash method with JSE
@@ -52,7 +52,7 @@ public class Sel_043_JavaScriptExecuterExample {
 //		WebElement loginBtn = driver.findElement(By.id("loginBtn"));
 //		
 //		JavaScriptUtil.flash(email, driver);
-//		email.sendKeys("bob@gmail.com");
+//		email.sendKeys("sezer@gmail.com");
 //		JavaScriptUtil.flash(password, driver);
 //		password.sendKeys("test12345");
 //		JavaScriptUtil.flash(loginBtn, driver);
