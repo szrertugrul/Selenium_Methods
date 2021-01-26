@@ -18,7 +18,7 @@ public static void main(String[] args) throws InterruptedException {
 		//form-control private-form__control login-email
 		
 		By username = By.className("login-email");
-		ElementUtil.getElement(driver, username).sendKeys("ilhan@gmail.com");
+		ElementUtil.getElement(driver, username).sendKeys("sezer@gmail.com");
         //form-control private-form__control login-password m-bottom-3
 	}
 
