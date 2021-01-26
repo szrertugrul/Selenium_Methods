@@ -10,7 +10,7 @@ public class Sel_019_DropDown_3 {
 
 	public static void main(String[] args) {
 		
-		System.setProperty("webdriver.chrome.driver", "/Users/bobit/Documents/Drivers/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/Users/szr/Documents/Drivers/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com");
 		
