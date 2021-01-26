@@ -16,7 +16,7 @@ public class Sel_046_HeadlessWithChrome {
 		co.addArguments("--headless");
 		
 		WebDriver driver = new ChromeDriver(co);
-		driver.get("http://siliconelabs.com");
+		driver.get("https://amazon.com/");
 		
 		System.out.println(driver.getTitle());
 
