@@ -23,7 +23,7 @@ public class Sel_014_TakeScreenShot {
 		driver.get("https://siliconelabs.com");
 		
 		File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(src, new File("/Users/bobit/Desktop/Pics/ilhan.png"));
+		FileUtils.copyFile(src, new File("/Users/szr/Desktop/Pics/ilhan.png"));
 		
 		// jpeg - png tif
 
