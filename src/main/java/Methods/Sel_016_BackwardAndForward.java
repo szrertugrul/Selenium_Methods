@@ -8,7 +8,7 @@ public class Sel_016_BackwardAndForward {
 	
 public static void main(String[] args) throws InterruptedException {
 		
-        System.setProperty("webdriver.chrome.driver", "/Users/bobit/Documents/Drivers/chromedriver"); //key: driver == value: driver's path
+        System.setProperty("webdriver.chrome.driver", "/Users/szr/Documents/Drivers/chromedriver"); //key: driver == value: driver's path
 	
 		WebDriver driver = new ChromeDriver();
 	
