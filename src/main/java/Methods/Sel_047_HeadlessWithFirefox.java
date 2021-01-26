@@ -17,7 +17,7 @@ public class Sel_047_HeadlessWithFirefox {
 		fo.addArguments("--headless");
 		
 		WebDriver driver = new FirefoxDriver(fo);
-		driver.get("http://siliconelabs.com");
+		driver.get("http://amazon.com/");
 		
 		System.out.println(driver.getTitle());
 
