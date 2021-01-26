@@ -19,18 +19,18 @@ public static void main(String[] args) throws InterruptedException {
 		
 		//First usage
 //		WebElement userElement = driver.findElement(By.name("username"));
-//		userElement.sendKeys("ilhan@gmail.com");
+//		userElement.sendKeys("sezer@gmail.com");
 		
 		//Second 
-		//driver.findElement(By.name("username")).sendKeys("ilhan@gmail.com");
+		//driver.findElement(By.name("username")).sendKeys("sezer@gmail.com");
 		
 		//Third usage
 		By username = By.name("username");
 //		WebElement userElement = driver.findElement(username);
-//		userElement.sendKeys("Biximgenclik@gmail.com");
+//		userElement.sendKeys("sezer@gmail.com");
 		
 		//Fourth Usage
-		ElementUtil.getElement(driver, username).sendKeys("LastPart@gmail.com");
+		ElementUtil.getElement(driver, username).sendKeys("sezer@gmail.com");
 		
 
 	}
