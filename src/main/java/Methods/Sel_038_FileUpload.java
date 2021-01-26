@@ -15,7 +15,7 @@ public class Sel_038_FileUpload {
 		
 		driver.get("https://cgi-lib.berkeley.edu/ex/fup.html");
 		
-		driver.findElement(By.name("upfile")).sendKeys("/Users/bobit/Desktop/ilhan.txt");
+		driver.findElement(By.name("upfile")).sendKeys("/Users/szr/Desktop/ilhan.txt");
 
 	}
 
