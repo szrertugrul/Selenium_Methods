@@ -14,7 +14,7 @@ public class Sel_020_DropDown_4 {
 	public static void main(String[] args) {
 		
 		WebDriverManager.operadriver().setup();
-		//System.setProperty("webdriver.chrome.driver", "/Users/bobit/Documents/Drivers/chromedriver");
+		//System.setProperty("webdriver.chrome.driver", "/Users/szr/Documents/Drivers/chromedriver");
 		WebDriver driver = new OperaDriver();
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
