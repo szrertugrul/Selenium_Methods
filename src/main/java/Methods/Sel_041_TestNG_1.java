@@ -48,7 +48,7 @@ public class Sel_041_TestNG_1 {
 	
 	 @Test(priority=2, description="Login system using invalid username invalid pass")
 	 public void invalidCredentials() {
-	   getElement(driver, email).sendKeys("ilhan@sample.com");
+	   getElement(driver, email).sendKeys("sezer@sample.com");
 	   getElement(driver, password).sendKeys("aboo123");
 	   getElement(driver, loginBtn).click();
 	   String text = getElement(driver, bodyText).getText();
