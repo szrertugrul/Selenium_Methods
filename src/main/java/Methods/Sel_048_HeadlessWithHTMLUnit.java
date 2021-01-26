@@ -12,7 +12,7 @@ public class Sel_048_HeadlessWithHTMLUnit {
 		WebDriverManager.firefoxdriver().setup();
 		
 		WebDriver driver = new HtmlUnitDriver();
-		driver.get("http://siliconelabs.com");
+		driver.get("https://amazon.com/");
 		
 		System.out.println(driver.getTitle());
 
