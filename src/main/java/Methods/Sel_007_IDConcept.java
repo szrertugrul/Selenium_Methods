@@ -20,22 +20,22 @@ public static void main(String[] args) throws InterruptedException {
 		
 		//First Usage
 		WebElement userElement = driver.findElement(By.id("username"));
-		userElement.sendKeys("boblerry@gmail.com");
+		userElement.sendKeys("sezer@gmail.com");
 		WebElement userPass = driver.findElement(By.id("password"));
 		userPass.sendKeys("test@123");
 		WebElement loginBtn = driver.findElement(By.id("loginBtn"));
 		loginBtn.click();
 		
 		//Second usage
-		//driver.findElement(By.id("username")).sendKeys("ilhan@gmail.com");
+		//driver.findElement(By.id("username")).sendKeys("sezer@gmail.com");
 		
 		//Third Usage
 		//By username = By.id("username");
 		//WebElement userElement = driver.findElement(username);
-		//userElement.sendKeys("robert@gmail.com");
+		//userElement.sendKeys("sezer@gmail.com");
 		
-		//Fouth Approach
-		//ElementUtil.getElement(driver, username).sendKeys("ilhan@gmail.com");
+		//Fourth Approach
+		//ElementUtil.getElement(driver, username).sendKeys("sezer@gmail.com");
 
 	}
 
