@@ -13,7 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
  * 
- * @author bobit
+ * @author szrertugrul
  *
  */
 
